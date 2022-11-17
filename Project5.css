@@ -1,0 +1,62 @@
+#outer{
+    height: 680px;
+    width: 760px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    background-image: linear-gradient(to top,pink, pink,rgb(230, 143, 230));
+    display: flex;
+}
+#inner{
+    height: 600px;
+    width: 600px;
+    /* border: 1px solid; */
+    margin: 0 auto;
+    margin-top: 30px; 
+    display: flex;  
+}
+.in{
+    height: 600px;
+    width: 300px;
+    /* border: 1px solid; */
+}
+#left{
+    background-image: url(./pexels-александр-прокофьев-929677.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+#right{
+    background-color: black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    color: whitesmoke;
+}
+
+.label{
+padding-top: 45px;
+border-bottom: 1px solid white;
+}
+#form{
+display: flex;
+justify-content: center;
+margin-top: 25px;
+}
+input{
+padding-right: 55px;
+}
+select{
+padding-right: 155px;
+}
+button{
+background-color: green;
+padding: 10px;
+border-radius: 25px;
+}
+#DOB{
+padding-right: 110px;
+}
+#labe{
+margin-top: 50px;
+}
